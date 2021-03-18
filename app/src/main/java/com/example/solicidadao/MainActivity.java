@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         webView= findViewById(R.id.webview);
-        webView.loadUrl("https://1tech.pythonanywhere.com");
+        webView.loadUrl("https://solicidadao.pythonanywhere.com/");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
